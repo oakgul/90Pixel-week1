@@ -4,7 +4,8 @@
   "description": "90Pixel week 1 Bootstrap4",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o css/ css/"
   },
   "keywords": [
     "Bootstrap4"
@@ -12,6 +13,7 @@
   "author": "Orhan Akgül",
   "license": "MIT",
   "dependencies": {
-    "lite-server": "^2.5.3"
+    "lite-server": "^2.5.3",
+    "node-sass": "^4.12.0"
   }
 }
